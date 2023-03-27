@@ -8,27 +8,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>DropBox</title>
 </head>
 <body>
     
     <!-- header -->
     <header>
-        <div class="head-row">
-            Dropbox
+        <div class="head-row left">
+            <a href="">
+                <img class="logo-small" src="img/logo-small.png" alt="logo DropBox">
+            </a>
+            <a href="">Perchè DropBox</a>
+            <a href="">Funzioni</a>
+            <a href="">Piani e Prezzi</a>
         </div>
-        <div class="head-row">
-            
+        <div class="head-row right">
+            <a href="">Supporto</a>
+            <a href="">Contatta l'ufficio vendite</a>
+            <a href=""> accedi</a>
+            <input class="button" type="button" value="Inizia">
         </div>
     </header>
 
     <!-- jumbotron -->
     <div class="jumbotron">
-        <!-- forse va inserito in un div -->
-        <h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
+        <div class="jumbo-title">
+            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+        </div>
         <div class="jumbo-row">            
-            <div class="jumbo left"></div>
-            <div class="jumbo right"></div>
+            <div class="jumbo left">
+                <p>
+                    Finalmente tutti i tuoi strumenti, contenuti e collaboratorisono accessibili dallo stesso posto. DropBox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente ed integrato per ottimizzare il flusso di lavoro esistente.
+                </p>
+                <input class="button" type="button" value="Inizia la tua prova gratuita">
+                <span>Annulla in qualsiasi momento</span>
+                <a href="">
+                    <i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i>
+                </a>
+            </div>
+            <div class="jumbo right">
+                <img id="jumbo-img" src="img/jumbo.png" alt="">
+            </div>
         </div>
     </div>
 
@@ -39,12 +60,48 @@
         <section class="prima-section">
             <div class="prima-title">
                 <h2>Trova il tuo piano business che fa per te</h2>
-                <input type="checkbox" name="" id="" value="">
+                <div  class="taste">
+                    <input type="radio">Fatturazione mensile
+                    <input class="mx" type="radio">Fatturazione annuale
+
+                </div>
             </div>
 
             <div class="prima-row">
-                <div class="prima left"></div>
+
+                <!-- colonna sinistra -->
+                <div class="prima left">
+                    <div class="subtitle-left">
+                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+                        Singolo
+                    </div>
+
+                    <div class="subtitle-left2">
+                        <h3>Professional</h3>
+                        <span>12.00€</span>
+                        <span class="text-opacity">
+                            /mese
+                        </span>
+                        <ul class="list">
+                            <li class="icon1">1 utente</li>
+                            <li class="icon2">5 TB di spazio di archiviazione sicuro</li>
+                            <li class="icon3">Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <input class="button center" type="button" value="Prova gratis per 30 giorni">
+                        <span>
+                            oppure <a href="">acquista ora</a>
+                        </span>
+                        <hr class="short">
+                        <h4>Punti Salienti del piano</h4>
+
+
+                    </div>
+                </div>
+
+                <!-- colonna centro -->
                 <div class="prima center"></div>
+
+                <!-- colonna destra -->
                 <div class="prima right"></div>
             </div>
         </section>
@@ -145,7 +202,7 @@
         </div>
 
         <div class="foot-closing">
-            
+
         </div>
     </footer>
 

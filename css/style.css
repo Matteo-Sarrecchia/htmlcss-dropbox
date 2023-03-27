@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: grey;
+}
+
+/* header */
+header{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.head-row{
+    background-color: blue;
+    border: 1px solid black;
+    width: 48%;
+    height: 50px;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-color: orange;
+    border: 1px solid black;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.jumbo-row{
+    width: 70%;
+    background-color: blueviolet;
+    margin: auto;   
+    display: flex; 
+}
+
+.jumbo{
+    background-color: green;
+    border: 1px solid black;
+    height: 300px;
+}
+
+.jumbo.left{
+    width: 30%;
+}
+
+.jumbo.right{
+    width: 70%;
+}
+
+/* corpo centrale */
+
+/* prima sezione */
+.prima-section{
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.prima-title{
+
+}
+
+.prima-row{
+    background-color: blue;
+    border: 1px solid black;
+    display: flex;
+}
+
+.prima.left, .prima.center, .prima.right{
+    width: calc(100%/3);
+    height: 500px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* seconda sezione */
+.seconda-section{
+    width: 70%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.seconda-section div{
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.seconda-row{
+    display: flex;
+}
+
+.seconda.left{
+    width: 70%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.seconda.right{
+    width: 30%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+
+
+/* terza sezione */
+.terza-section{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    display: flex;
+}
+
+.terza.left{
+    height: 300px;
+    width: 70%;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.terza.right{
+    height: 300px;
+    width: 30%;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+/* quarta sezione */
+.quarta-section{
+    width: 70%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.quarta-title{
+    background-color: green;
+    border: 1px solid black;
+}
+
+.quarta-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quarta-sons{
+    background-color: blue;
+    border: 1px solid black;
+    width: calc(100%/3);
+    height: 250px;
+}
+
+/* quinta sezione */
+.quinta-section{
+    width: 70%;
+    min-height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+/* sesta sezione */
+.sesta-section{
+    min-height: 100px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+/* primo contenitore */
+.sesta-row{
+    display: flex;
+}
+
+.sesta.left, .sesta.right, .sesta.center{
+    background-color: blue;
+    border: 1px solid black;
+    width: calc(100%/3);
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sesta.left div, .sesta.right div{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+/* secondo contenitore */
+.sesta-row2{
+    background-color: blueviolet;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sesta2.left, .sesta2.right{
+    width: 30%;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* settima sezione */
+.settima-section{
+    width: 70%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.settima-section div{
+    background-color: orange;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* footer */
+footer{
+    border: 2px solid red;
+    margin-top: 30px;
+}
+
+.foot-row{
+    width: 80%;
+    min-height: 150px;
+    margin: auto;
+    background-color: blueviolet;
+    border: 1px solid black;
+    display: flex;
+}
+
+.foot-row div{
+    background-color: green;
+    border: 1px solid black;
+    height: 250px;
+    width: calc(100%/5);
+}
+
+.foot-closing{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}

@@ -329,13 +329,12 @@ li{
 }
 
 
-
 /* sesta sezione */
 .sesta-section{
     min-height: 100px;
     margin-top: 30px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
 }
 
 /* primo contenitore */
@@ -344,7 +343,7 @@ li{
 }
 
 .sesta.left, .sesta.right, .sesta.center{
-    background-color: blue;
+    /* background-color: blue; */
     border: 1px solid black;
     width: calc(100%/3);
     height: 350px;
@@ -355,23 +354,75 @@ li{
 .sesta.left div, .sesta.right div{
     width: 50%;
     height: 50%;
-    background-color: orange;
     border: 1px solid black;
 }
 
-/* secondo contenitore */
-.sesta-row2{
-    background-color: blueviolet;
-    min-height: 100px;
+.sesta-container {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.sesta-img{
+    max-width: 200px;
+    padding: 20px;
+}
+
+.sesta-container.design{
+    background-color: #A2D39B;
+}
+
+.sesta-container.arizona{
+    background-color: #61082B;
+}
+
+.sesta-container.florida{
+    background-color: #0093CE;
+}
+
+.sesta-container.toops{
+    background-color: #FF1C1C;
+}
+
+.sesta-container.world{
+    background-color: #D5001F;
+}
+
+.sesta-container.hearts{
+    background-color: #B4D0E7;
+}
+
+.sesta-container.lonely{
+    background-color: #0D2481;
+}
+
+.sesta-container.clear{
+    background-color: #FFD830;
+}
+
+/* center */
+
+
+/* secondo contenitore */
+.sesta-row2{
+    display: flex;
+    justify-content: center;
+    background-color: #B4D0E7;
+}
+
 .sesta2.left, .sesta2.right{
-    width: 30%;
-    height: 200px;
-    background-color: green;
-    border: 1px solid black;
+    width: 25%;
+}
+
+.sesta2.left{
+    padding-right: 100px;
+    margin: 50px;
+    color: #61082B;
+}
+
+.button.white.sesta{
+    margin: 50px 0;
+    padding: 10px 50px;
 }
 
 /* settima sezione */

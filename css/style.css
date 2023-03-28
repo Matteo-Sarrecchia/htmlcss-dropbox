@@ -321,9 +321,14 @@ li{
     min-height: 50px;
     margin: auto;
     margin-top: 30px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    padding-right: 650px;
 }
+
+.quinta-section h2{
+    padding-bottom: 50px;
+}
+
+
 
 /* sesta sezione */
 .sesta-section{

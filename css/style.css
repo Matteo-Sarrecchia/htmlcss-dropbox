@@ -392,6 +392,16 @@ li{
     flex-wrap: wrap;
 }
 
+.sesta.center{
+    display: block;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.sesta.center p{
+    padding-bottom: 20px;
+}
+
 .sesta.left div, .sesta.right div{
     width: 50%;
     height: 50%;
@@ -407,6 +417,15 @@ li{
 .sesta-img{
     max-width: 200px;
     padding: 20px;
+}
+
+.sesta-img{
+    filter: invert(1);
+}
+
+.sesta-img.black{
+    filter: none;
+    padding: 0;
 }
 
 .sesta-container.design{
@@ -441,7 +460,6 @@ li{
     background-color: #FFD830;
 }
 
-/* center */
 
 
 /* secondo contenitore */

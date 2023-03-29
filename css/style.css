@@ -496,27 +496,25 @@ li{
 }
 
 .sette-container{
-    display: flex;
+    /* display: flex;
+    justify-content: space-between; */
     border-bottom: 1px solid black;
     padding: 30px 0;
+    padding-right: 50px;
 }
 
-.sette-col.left{
-    width: 90%;
-}
-
-.sette-col.right{
-    width: 10%;
-    text-align: center;
-}
-
-.faq-up:hover .faq-down{
-    display: block;
+.sette-text{
+    display: inline;
+    padding-right: 350px;
 }
 
 .faq-down{
     display: none;
-    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.faq-up:hover + .faq-down{
+    display: block;
 }
 
 
